@@ -60,6 +60,7 @@ export default {
         topic: "",
         title: "",
         description: "",
+        author: "",
       },
       submitted: false,
       message : ''
