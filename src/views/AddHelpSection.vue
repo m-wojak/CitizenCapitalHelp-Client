@@ -70,7 +70,8 @@ export default {
       var data = {
         topic: this.help_section.topic,
         title: this.help_section.title,
-        description: this.help_section.description
+        description: this.help_section.description,
+        author: this.help_section.author
       };
       HelpSectionDataService.create(data)
         .then(response => {
